@@ -24,7 +24,7 @@ public class Pessoa {
 		return idade;
 	}
 	
-	/*GET*/
+	/*SET*/
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
