@@ -10,6 +10,8 @@ public class Pessoa {
 	private int idade;
 	
 	/*Metodos*/
+	
+	/*GET*/
 	public String getNome() {
 		return nome;
 	}
@@ -22,6 +24,7 @@ public class Pessoa {
 		return idade;
 	}
 	
+	/*GET*/
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
