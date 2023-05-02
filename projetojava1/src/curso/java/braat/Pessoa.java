@@ -13,6 +13,8 @@ public class Pessoa {
 	
 	private Date dataNascimento;
 	
+	private String endereco;
+	
 	/*Metodos*/
 	
 	/*GET*/
