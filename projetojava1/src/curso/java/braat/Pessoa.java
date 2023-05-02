@@ -33,6 +33,10 @@ public class Pessoa {
 	public Date getDataNascimento() {
 		return dataNascimento;
 	}
+	
+	public String getEndereco() {
+		return endereco;
+	}
 		
 	/*SET*/
 	public void setNome(String nome) {
@@ -51,4 +55,7 @@ public class Pessoa {
 		this.dataNascimento = dataNascimento;
 	}
 
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
 }
