@@ -1,5 +1,7 @@
 package curso.java.braat;
 
+import java.util.Date;
+
 public class Pessoa {
 
 	/*Atributos*/
@@ -8,6 +10,8 @@ public class Pessoa {
 	private String sobrenome;
 
 	private int idade;
+	
+	private Date dataNascimento;
 	
 	/*Metodos*/
 	
@@ -24,6 +28,10 @@ public class Pessoa {
 		return idade;
 	}
 	
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+		
 	/*SET*/
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -35,6 +43,10 @@ public class Pessoa {
 	
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 
 }
