@@ -15,6 +15,8 @@ public class Pessoa {
 	
 	private String endereco;
 	
+	private String profissao;
+	
 	/*Metodos*/
 	
 	/*GET*/
@@ -37,6 +39,10 @@ public class Pessoa {
 	public String getEndereco() {
 		return endereco;
 	}
+	
+	public String getProfissao() {
+		return profissao;
+	}
 		
 	/*SET*/
 	public void setNome(String nome) {
@@ -57,5 +63,9 @@ public class Pessoa {
 
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
+	}
+	
+	public void setProfissao(String profissao) {
+		this.profissao = profissao;
 	}
 }
